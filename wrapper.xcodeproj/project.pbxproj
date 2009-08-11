@@ -1,0 +1,87 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXFileReference section */
+		B331685C1031797D0036C2D3 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = __init__.py; path = APNSWrapper/__init__.py; sourceTree = "<group>"; };
+		B331685E10317C770036C2D3 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B3BF8C59100FDCD700816AFF /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B331685B103179630036C2D3 /* APNSWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				B331685C1031797D0036C2D3 /* __init__.py */,
+			);
+			name = APNSWrapper;
+			sourceTree = "<group>";
+		};
+		B3BF8B1E100E7B0400816AFF = {
+			isa = PBXGroup;
+			children = (
+				B331685B103179630036C2D3 /* APNSWrapper */,
+				B3BF8B28100E7B0C00816AFF /* apns-wrapper */,
+				B331685E10317C770036C2D3 /* README */,
+			);
+			sourceTree = "<group>";
+		};
+		B3BF8B28100E7B0C00816AFF /* apns-wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF8C59100FDCD700816AFF /* setup.py */,
+			);
+			name = "apns-wrapper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		B3BF8B20100E7B0400816AFF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B3BF8B23100E7B0400816AFF /* Build configuration list for PBXProject "wrapper" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 0;
+			mainGroup = B3BF8B1E100E7B0400816AFF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		B3BF8B21100E7B0400816AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B3BF8B22100E7B0400816AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3BF8B23100E7B0400816AFF /* Build configuration list for PBXProject "wrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BF8B21100E7B0400816AFF /* Debug */,
+				B3BF8B22100E7B0400816AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3BF8B20100E7B0400816AFF /* Project object */;
+}
