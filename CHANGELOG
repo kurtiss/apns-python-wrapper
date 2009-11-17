@@ -1,0 +1,15 @@
+Version 0.4 / Nov, 17, 2009
+------------------------------
+ * Removed dependency from ssl module. Now module support for openssl command line 
+ * Removed code from __init__.py and reorganized to several files
+ * Added new method tokenHex which can parse tokens from XCode console (thanx to eric.chamberlain)
+ * Added patch which fix APNS tuples generation (thanx to eric.chamberlain)
+
+
+Version 0.3 / Aug 11, 2009
+------------------------------
+ * Fixed sandbox url issue
+
+Version 0.2 / Jul 27, 2009
+------------------------------
+Project start.
