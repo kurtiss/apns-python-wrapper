@@ -1,0 +1,5 @@
+[paths]
+default = https://apns-python-wrapper.googlecode.com/hg/
+
+[git]
+intree = true
